@@ -1,0 +1,299 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand',sans-serif;
+    background: #fff;
+    color: #000;
+    overflow-x: hidden;
+    list-style: none;
+}
+
+/* navbar */
+
+ ul{
+    list-style: none;
+ }
+
+ img{max-width: 100%;
+     border-radius: 4px;
+}
+
+ a{
+    text-decoration: none!important;
+    color: #999;
+    transition: all 0.5s ease-in-out;
+ }
+ a:hover{
+    color: #0dcaf0!important;
+ }
+
+.navbar{
+    position: relative;
+
+}
+
+.navbar-collapse{
+    text-align: center;
+}
+.navbar-light .navbar-toggler:focus{
+    color: #000;
+    box-shadow: 0 0 0 2px;
+
+}
+.navbar ul li{
+    position: relative;
+    margin-left: 2.5rem;
+    margin-right: 1rem;
+}
+
+.navbar ul li a{
+    position: relative;
+    display: block;
+    font-family: "poppins",sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 1.6pxs;
+    text-transform: uppercase;
+    color: #999;
+
+}
+
+/* banner content  */
+
+.banner-section{
+    position: relative;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.banner-section .banner-title{
+    position: relative;
+    margin: 0;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    font-family: "pappins",sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.banner-section .banner-description{
+    position: relative;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.banner-section .banner-btn{
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #a5a7a7;
+}
+
+/* About Section */
+.about-section{
+    position: relative;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.about-section .about-title{
+    position: relative;
+    margin: 0;
+    background: #f7f7f7;
+    padding-bottom: 2rem;
+    font-family: "poppins",sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.about-section .about-description{
+    position: relative;
+    font-size: 22px;
+    font-weight: 500;
+}
+.portfolio-section{
+    position: relative;
+    padding: 3rem;
+    padding-bottom: 3rem;
+
+}
+
+.portfolio-section .port-title{
+    position: relative;
+    padding-top: 3rem;
+    font-family: "poppins",sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+/* footer */
+
+.footer{
+    position: relative;
+    padding: 50px;
+    background: #000;
+    
+
+}
+.footer .social-media .footer-list{
+    position: relative;
+    margin: 0 0 0 0;
+    display: inline-block;
+
+
+}
+
+.footer .social-media .footer-list li{
+    float: left;
+    margin-right: 10px;
+
+}
+
+.footer .social-media .footer-list li a{
+    position: relative;
+    font-size: 30px;
+    font-weight: 500px;
+    letter-spacing: 0.5rem;
+    color: #000;
+
+}
+
+.portfolio-section .port-role,
+.portfolio-section .port-job{
+    position: relative;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #a5a7a7;
+}
+
+.portfolio-section .port-description{
+     position: relative;
+     font-size: 22px;
+     font-weight: 500;
+     padding-bottom: 20px;
+}
+
+.services-section .card{
+ position:relative;
+ background-color: lightgray;
+ cursor: pointer;
+ color: #000;    
+}
+
+
+.services-section .card .para-design{
+    background-color: lightgray;
+    color: black;
+}
+
+.services-section h5{
+    background-color: lightgray;
+    text-align: center;
+
+}
+
+.services-section img{
+    background-color: lightgray;
+}
+
+
+
+
+.form-box{
+    border: 10px solid rgb(24, 221, 211);
+    max-width:350px;
+    margin: 100px auto;
+    border-radius: 10px;
+    min-height: 200px;
+    padding: 30px;
+    background: #fff;
+}
+.form-box .input-field{
+    
+    margin-bottom: 20px;
+    position: relative;
+    
+}
+.form-box input{
+    display: block;
+    min-height: 20px;
+    font-size: 18px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.form-box input[type='text']{
+    padding-right: 25px
+}
+.form-box h2{
+    display: block;
+    text-align: center;
+    font-size: 28px;
+   margin-bottom: 40px;
+}
+.form-box label{
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 5px;
+    display: block;
+
+}
+.form-box input[type='submit']{
+    background: #1a9ae2;
+    cursor: pointer;
+    color: #fff;
+    
+}
+
+.form-box .fa{
+    position: absolute;
+    right: 10px;
+    margin-top: -30px;
+}
+.form-box .input-field.error input{
+    border-color: #f00;
+    border-width: 2px;
+}
+.form-box .input-field.error .fa{
+    color: #f00;
+}
+.form-box .input-field.success input{
+    border-color: #0b0;
+    border-width: 2px;
+}
+.form-box .input-field.success .fa{
+    color: #0b0;
+}
+.input-field span{
+display: none;
+}
+.input-field.error span{
+    color: #f00;
+    display: block
+}
+
+.input-field.success span{
+    color: #0b0;
+}
+
+
+
+
+
+
+
